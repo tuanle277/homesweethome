@@ -1,0 +1,13 @@
+# run "python3 -m pip install -r requirements.txt" for installation and setup
+
+transformers
+tensorflow
+multipart
+scipy
+plotly==5.14.0
+scikit-learn
+torch
+numpy
+matplotlib
+pandas
+requests
