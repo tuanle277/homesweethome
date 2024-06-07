@@ -1,6 +1,7 @@
 from setup import *
 
-def sparse_response(place):
+# get response from api, parse it, then input into excel
+def parse_response(place):
   response = api_call_from_place(place)
   home_data = []
 
@@ -52,7 +53,7 @@ def sparse_response(place):
       print("No homes data found")
 
 place = input("Input the name of a place (country, county,...): ")
-sparse_response(place)
+parse_response(place)
 # places = ["Tracy", "Austin", "San Jose", "Livermore", "San Lorenzo", "San Francisco", "Greencastle"]
 # for place in places:
-#   sparse_response(place)
+#   parse_response(place)

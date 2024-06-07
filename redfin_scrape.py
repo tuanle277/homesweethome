@@ -11,7 +11,7 @@ import requests
 def api_call_from_place(place):
   url = "https://redfin-com-data.p.rapidapi.com/property/search"
 
-  querystring = {"location":place,"search_by":"places"}
+  querystring = {"location": place, "search_by":"places"}
 
   headers = {
     "X-RapidAPI-Key": "8d1cc6a7femshfdb11fea2f24219p11bce0jsn4f7e403da7f9",
@@ -27,10 +27,12 @@ def api_call_from_place(place):
 
 def get_location_details(address, api_key):
     base_url = "https://maps.googleapis.com/maps/api/geocode/json"
+
     params = {
         "address": address,
         "key": api_key
     }
+
     response = requests.get(base_url, params=params)
     if response.status_code == 200:
         data = response.json()
