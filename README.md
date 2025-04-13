@@ -21,7 +21,7 @@
    ```
 5. Pull required model:
    ```bash
-   ollama pull llama2
+   ollama pull llama3
    ```
 
 <!-- ## Data Collection -->
