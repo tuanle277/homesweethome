@@ -15,7 +15,8 @@ dependencies = [
     "numpy",
     "matplotlib",
     "pandas",
-    "requests",
+    "markdown2",
+    "google-generativeai"
 ]
 
 [tool.setuptools.packages.find]

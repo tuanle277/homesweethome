@@ -1,25 +1,25 @@
-# run "pip install -e ." to load
+# # run "pip install -e ." to load
 
-[project]
-name = "homeishome"
-version = "0.1.0"
-requires-python = ">=3.9"
-dependencies = [
-    "transformers",
-    "tensorflow",
-    "multipart",
-    "scipy",
-    "plotly==5.14.0",
-    "scikit-learn",
-    "torch",
-    "numpy",
-    "matplotlib",
-    "pandas",
-    "requests",
-]
+# [project]
+# name = "homeishome"
+# version = "0.1.0"
+# requires-python = ">=3.9"
+# dependencies = [
+#     "transformers",
+#     "tensorflow",
+#     "multipart",
+#     "scipy",
+#     "plotly==5.14.0",
+#     "scikit-learn",
+#     "torch",
+#     "numpy",
+#     "matplotlib",
+#     "pandas",
+#     "requests",
+# ]
 
-[tool.setuptools.packages.find]
-exclude = ["assets*", "benchmark*", "playground*", "scripts*", "tests*", "data*"]
+# [tool.setuptools.packages.find]
+# exclude = ["assets*", "benchmark*", "playground*", "scripts*", "tests*", "data*"]
 
-[tool.wheel]
-exclude = ["assets*", "benchmark*", "playground*", "scripts*", "tests*", "data*"]
+# [tool.wheel]
+# exclude = ["assets*", "benchmark*", "playground*", "scripts*", "tests*", "data*"]

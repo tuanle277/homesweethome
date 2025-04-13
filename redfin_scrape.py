@@ -47,9 +47,10 @@ def get_location_details(address, api_key):
                     location_details['state'] = component['long_name']
                 elif 'neighborhood' in types:
                     location_details['neighborhood'] = component['long_name']
-
+            print(location_details) 
             return location_details
         else:
             return {"error": "No results found"}
     else:
         return {"error": "Failed to connect to the API"}
+

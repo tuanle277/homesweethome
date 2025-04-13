@@ -52,8 +52,8 @@ def parse_response(place):
   else:
       print("No homes data found")
 
-place = input("Input the name of a place (country, county,...): ")
-parse_response(place)
-# places = ["Tracy", "Austin", "San Jose", "Livermore", "San Lorenzo", "San Francisco", "Greencastle"]
-# for place in places:
-#   parse_response(place)
+# place = input("Input the name of a place (country, county,...): ")
+# parse_response(place)
+places = ["Tracy", "Austin", "San Jose", "Livermore", "San Lorenzo", "San Francisco", "Greencastle"]
+for place in places:
+  parse_response(place)
